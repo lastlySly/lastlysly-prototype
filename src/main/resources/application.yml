@@ -1,0 +1,11 @@
+server:
+  port: 8082
+  servlet:
+    application-display-name: lastlysly-prototype
+
+spring:
+  redis:
+    host: 127.0.0.1
+    database: 1
+    port: 6379
+    password: 123456
