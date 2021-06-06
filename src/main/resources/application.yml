@@ -2,6 +2,9 @@ server:
   port: 8082
   servlet:
     application-display-name: lastlysly-prototype
+  tomcat:
+    threads:
+      max: 1
 
 spring:
   redis:
