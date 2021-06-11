@@ -1,7 +1,7 @@
 package com.lastlysly.demo.config;
 
 import com.google.common.collect.Lists;
-import com.lastlysly.web.filter.ApiRequestInterceptor;
+import com.lastlysly.web.Interceptor.ApiRequestInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
